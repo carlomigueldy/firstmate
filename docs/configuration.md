@@ -1377,10 +1377,10 @@ A duplicate wake is possible if the process is killed between the queue append a
 IMAP and SMTP use implicit TLS on the default ports 993 and 465 (`IMAP4_SSL` / `SMTP_SSL`).
 STARTTLS and port 587 are not supported.
 
-It is off unless the home's gitignored `.env` provides the connection values.
+Online mail commands require connection values from the home's gitignored `.env` or, for direct invocations, the environment; offline rendering and help remain available without them.
 This section is the single owner of the mail-plane configuration schema; for direct invocations, environment values override `.env`, matching the Relay contract.
 
-Required, in the home's gitignored `.env`:
+Required for online mail commands, in the environment or the home's gitignored `.env`:
 
 ```sh
 FM_MAIL_USER=   # IMAP/SMTP login
