@@ -1,0 +1,19 @@
+FIRSTMATE / Your decision
+Web app / Release preparation
+
+One call before release.
+
+The checkout fix is ready. There is one remaining tradeoff: how long to wait for a slow payment provider before showing a retry message.
+
+Keep the current retry limit?
+A. Keep two attempts: Preserves the current wait time. A small number of slow payments will need a manual retry.
+B. Allow three attempts: Recovers more slow payments, but can add five seconds before the customer sees a result.
+
+Recommendation: Keep two attempts for this release. We can revisit the limit with a week of production timing data.
+
+Reply with A or B, or describe another approach. The release will wait for your decision.
+
+Read the test results: https://example.com/review/checkout-results
+
+Your firstmate
+Talk to one agent. Ship with a crew.

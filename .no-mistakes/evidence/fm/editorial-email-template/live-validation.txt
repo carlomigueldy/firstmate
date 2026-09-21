@@ -1,0 +1,5 @@
+literal-html: exit 0; HTML rendered with literal user content
+unsafe-url: exit 1; fm-mail template error: action url must be an absolute HTTPS URL without credentials
+missing-reply: exit 1; fm-mail template error: question templates require question and reply_hint
+too-long-title: exit 1; fm-mail template error: title must be non-empty text of at most 160 characters
+Offline rendering with missing credentials and invalid port configuration created no FM_HOME state.
