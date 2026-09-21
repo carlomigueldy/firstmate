@@ -1387,6 +1387,11 @@ Arm the check once per home with `bin/fm-tool-update-check.sh arm`.
 ## Mail plane (.env)
 
 The mail plane (bin/fm-mail.sh) reads unseen IMAP messages and sends one SMTP message.
+Its explicit `send-template` path sends Firstmate notifications and questions as `multipart/alternative`, with a complete plain-text fallback and self-contained HTML using system fonts.
+The existing `send` path remains plain text; neither path changes reply authority or approves actions from a link.
+The template borrows the palette and display-font fallbacks from the [Firstmate visual system](https://myfirstmate.io/), using inline table layout with an optional mobile media query following [Gmail's CSS support](https://developers.google.com/workspace/gmail/design/css).
+For the versioned JSON schema and exact commands, use `bin/fm-mail.sh --help`; [notification](../assets/mail/notification.json) and [question](../assets/mail/question.json) examples contain fictional content and placeholder links.
+`render-template` previews the same renderer offline without credentials or home state; `tests/fm-mail.test.sh` verifies MIME alternatives, input validation, escaping, and legacy sending through the executable interface.
 
 **Polling and delivery guarantees**
 
