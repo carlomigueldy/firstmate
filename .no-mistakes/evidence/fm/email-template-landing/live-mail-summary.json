@@ -1,0 +1,43 @@
+{
+  "delivery": [
+    [
+      "notification",
+      0,
+      "sent to reader@example.com",
+      ""
+    ],
+    [
+      "question",
+      0,
+      "sent to reader@example.com",
+      ""
+    ]
+  ],
+  "invalid": {
+    "code": 1,
+    "error": "fm-mail template error: action url must be an absolute HTTPS URL without credentials",
+    "smtp_messages_added": 0
+  },
+  "legacy": {
+    "type": "text/plain",
+    "parts": [],
+    "subject": "Legacy"
+  },
+  "server_errors": [],
+  "notification": {
+    "type": "multipart/alternative",
+    "parts": [
+      "text/plain",
+      "text/html"
+    ],
+    "subject": "Firstmate notification"
+  },
+  "question": {
+    "type": "multipart/alternative",
+    "parts": [
+      "text/plain",
+      "text/html"
+    ],
+    "subject": "Firstmate question"
+  }
+}

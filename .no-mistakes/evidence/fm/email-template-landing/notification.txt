@@ -1,0 +1,16 @@
+FIRSTMATE / Notification
+Web app / Release preparation
+
+The checkout fix is ready.
+
+The intermittent payment failure is fixed. Retried requests now reuse the original payment, so a slow response no longer creates a second charge.
+
+The change and its regression test are ready for review.
+Checks: 24 passed
+Delivery: Ready for review
+Deployment: Awaiting approval
+
+Review the change: https://example.com/review/checkout-fix
+
+Your firstmate
+Talk to one agent. Ship with a crew.

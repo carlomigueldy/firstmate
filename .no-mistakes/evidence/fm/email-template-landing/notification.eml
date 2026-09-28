@@ -1,0 +1,115 @@
+From: hello@example.com
+To: reader@example.com
+Subject: Firstmate notification
+Date: Mon, 28 Sep 2026 13:25:51 +0800
+Message-ID:
+ <179057315135.1914945.10404743127521257384@CARLOMIGUELDY.localdomain>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6648418311735615672=="
+
+--===============6648418311735615672==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+FIRSTMATE / Notification
+Web app / Release preparation
+
+The checkout fix is ready.
+
+The intermittent payment failure is fixed. Retried requests now reuse the ori=
+ginal payment, so a slow response no longer creates a second charge.
+
+The change and its regression test are ready for review.
+Checks: 24 passed
+Delivery: Ready for review
+Deployment: Awaiting approval
+
+Review the change: https://example.com/review/checkout-fix
+
+Your firstmate
+Talk to one agent. Ship with a crew.
+
+--===============6648418311735615672==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html>
+<html lang=3D"en"><head><meta charset=3D"utf-8"><meta name=3D"viewport" conte=
+nt=3D"width=3Ddevice-width,initial-scale=3D1">
+<title>The checkout fix is ready.</title>
+<style>@media screen and (max-width:480px){.fm-outer{padding:12px 8px!importa=
+nt}.fm-content{padding:28px 22px!important}.fm-title{font-size:30px!important=
+}}</style>
+</head><body style=3D"margin:0;padding:0;background-color:#f6ecd3;color:#241c=
+14;">
+<div style=3D"display:none;font-size:1px;line-height:1px;max-height:0;max-wid=
+th:0;overflow:hidden;mso-hide:all;">The checkout fix is ready. All checks pas=
+sed; nothing has been deployed.</div>
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" bgcolor=3D"#f6ecd3" style=3D"border-collapse:collapse;"><tr><td class=3D"f=
+m-outer" align=3D"center" style=3D"padding:32px 16px;">
+<!--[if mso]><table role=3D"presentation" width=3D"600" cellpadding=3D"0" cel=
+lspacing=3D"0"><tr><td><![endif]-->
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" bgcolor=3D"#fffdf7" style=3D"max-width:600px;border:1px solid #ddc89c;bord=
+er-top:4px solid #c0452a;border-collapse:collapse;table-layout:fixed;">
+<tr><td class=3D"fm-content" style=3D"padding:36px 40px;font-family:'Segoe UI=
+',Helvetica,Arial,sans-serif;line-height:1.55;word-wrap:break-word;overflow-w=
+rap:anywhere;">
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0"><tr>
+<td style=3D"padding-bottom:24px;border-bottom:2px solid #2a3656;">
+<span style=3D"font-family:'Cooper Black',Rockwell,Georgia,serif;font-size:30=
+px;font-weight:bold;letter-spacing:-1px;color:#c0452a;">firstmate<span style=
+=3D"color:#2a3656;">.</span></span>
+</td><td align=3D"right" valign=3D"middle" width=3D"42" style=3D"padding-bott=
+om:24px;border-bottom:2px solid #2a3656;">
+<span aria-hidden=3D"true" style=3D"font-size:26px;color:#c0452a;">&#9875;&#6=
+5038;</span>
+</td></tr></table>
+<p style=3D"margin:24px 0 10px;font-family:Consolas,'Courier New',monospace;f=
+ont-size:11px;line-height:1.6;letter-spacing:1px;color:#6f5e46;">Web app / Re=
+lease preparation</p>
+<p style=3D"margin:0 0 22px;"><span style=3D"display:inline-block;padding:5px=
+ 9px;border:1px solid #241c14;border-radius:3px;background-color:#f6ecd3;font=
+-size:10px;line-height:1.4;font-weight:bold;letter-spacing:1px;color:#2a3656;=
+">NOTIFICATION</span></p>
+<h1 class=3D"fm-title" style=3D"margin:0 0 22px;font-family:Georgia,'Times Ne=
+w Roman',serif;font-size:36px;line-height:1.15;font-weight:normal;letter-spac=
+ing:-0.5px;color:#2a3656;">The checkout fix is ready.</h1>
+<p style=3D"margin:0 0 16px;font-size:16px;line-height:1.65;">The intermitten=
+t payment failure is fixed. Retried requests now reuse the original payment, =
+so a slow response no longer creates a second charge.</p><p style=3D"margin:0=
+ 0 16px;font-size:16px;line-height:1.65;">The change and its regression test =
+are ready for review.</p><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"border-collapse:collapse;table-layout:fixed;margin:24px 0;"><=
+tr><th scope=3D"row" align=3D"left" valign=3D"top" width=3D"32%" style=3D"pad=
+ding:10px 12px 10px 0;border-bottom:1px solid #ddc89c;font-size:12px;font-wei=
+ght:normal;color:#6f5e46;">Checks</th><td valign=3D"top" style=3D"padding:10p=
+x 0;border-bottom:1px solid #ddc89c;font-size:14px;">24 passed</td></tr><tr><=
+th scope=3D"row" align=3D"left" valign=3D"top" width=3D"32%" style=3D"padding=
+:10px 12px 10px 0;border-bottom:1px solid #ddc89c;font-size:12px;font-weight:=
+normal;color:#6f5e46;">Delivery</th><td valign=3D"top" style=3D"padding:10px =
+0;border-bottom:1px solid #ddc89c;font-size:14px;">Ready for review</td></tr>=
+<tr><th scope=3D"row" align=3D"left" valign=3D"top" width=3D"32%" style=3D"pa=
+dding:10px 12px 10px 0;border-bottom:1px solid #ddc89c;font-size:12px;font-we=
+ight:normal;color:#6f5e46;">Deployment</th><td valign=3D"top" style=3D"paddin=
+g:10px 0;border-bottom:1px solid #ddc89c;font-size:14px;">Awaiting approval</=
+td></tr></table><p style=3D"margin:28px 0 0;line-height:1.6;"><a href=3D"http=
+s://example.com/review/checkout-fix" style=3D"color:#a93a1f;font-weight:bold;=
+text-decoration:underline;">Review the change &rarr;</a></p>
+<table role=3D"presentation" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"margin-top:32px;"><tr><td style=3D"padding-top:20px;border-top:1p=
+x solid #ddc89c;">
+<p style=3D"margin:0;font-family:Georgia,serif;font-size:18px;font-style:ital=
+ic;color:#2a3656;">Your firstmate</p>
+<p style=3D"margin:8px 0 0;font-size:11px;line-height:1.5;color:#6f5e46;">Tal=
+k to one agent. Ship with a crew.</p>
+</td></tr></table>
+</td></tr></table>
+<!--[if mso]></td></tr></table><![endif]-->
+</td></tr></table></body></html>
+
+--===============6648418311735615672==--
